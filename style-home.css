@@ -1,85 +1,39 @@
-}
-h1{
-  text-align: center;
-  font-size: 33px;
-}
-h2{
-  text-align: center;
 
-}
-    #missao{
-      font-size: 20px;
-    }
-#missao-destaque{
-  color: blue;
-}
-h2{
+  h1{
+    text-align: center;
+    font-size: 33px;
+  }
+  h2{
+    text-align: center;
 
-}
+  }
+      #missao{
+        font-size: 20px;
+      }
+  #missao-destaque{
+    color: blue;
+  }
+  h2{
 
-.beneficios{
-  background-color: #ffffff;
-  padding: 20px;
-}
-.item{
-  font-style: italic;
-}
-.imagem-beneficios{
-  width: 40%;
-}
-ul{
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 10%
-}
-.principal{
-  background-color: #cccccc;
-  padding: 30px;
-}
-main {
-  width: 940px;
-  margin: 0 auto;
-}
+  }
 
-form {
-  margin: 40px 0;
-}
-
-form label {
-  display:block;
-  font-size: 20px;
-  margin: 0 0 10px;
-}
-
-form input {
-  display: block;
-  margin: 0 0 20px;
-  padding: 10px 25px;
-  width: 50%;
-}
-form label {
-    display:block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-form label, form p {
-    display:block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-form input {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-}
-.input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-}
-.checkbox {
-    margin: 20px 0;
-}
+  .beneficios{
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  .item{
+    font-style: italic;
+  }
+  .imagem-beneficios{
+    width: 40%;
+  }
+  ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 10%
+  }
+  .principal{
+    background-color: #cccccc;
+    padding: 30px;
+  }
