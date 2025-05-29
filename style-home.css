@@ -1,39 +1,64 @@
+#banner {
+  width:100%;
+}
 
-  h1{
-    text-align: center;
-    font-size: 33px;
-  }
-  h2{
-    text-align: center;
+.principal{
+  background: #CCCCCC;
+  padding: 30px;
+}
 
-  }
-      #missao{
-        font-size: 20px;
-      }
-  #missao-destaque{
-    color: blue;
-  }
-  h2{
+.titulo-principal {
+  padding-left: 20px;
+}
 
-  }
+.titulo-centralizado {
+  text-align: center
+}
 
-  .beneficios{
-    background-color: #ffffff;
-    padding: 20px;
-  }
-  .item{
-    font-style: italic;
-  }
-  .imagem-beneficios{
-    width: 40%;
-  }
-  ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 10%
-  }
-  .principal{
-    background-color: #cccccc;
-    padding: 30px;
-  }
+p {
+  text-align: center;
+}
+
+#missao {
+  font-size: 20px
+}
+
+em strong {
+  color: #FF0000;
+}
+
+.itens {
+  font-style: italic
+}
+
+.beneficios {
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagembeneficios {
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
